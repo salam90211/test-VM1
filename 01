@@ -84,6 +84,10 @@ wmic process get name,processid | findstr java
 
 netstat -ano | findstr 8983
 
+wmic service get name,displayname,pathname,startmode | findstr /i solr
+
+sc query state= all | findstr /i solr
+
 1
 python3 - << 'PY'
 import base64
