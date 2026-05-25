@@ -92,6 +92,12 @@ cmd /c "dir C:\xampp\tomcat /s /b | findstr tomcat-users.xml"
 
 type C:\xampp\tomcat\conf\tomcat-users.xml
 
+cmd /c "findstr /spin /i password C:\xampp\*.txt C:\xampp\*.ini C:\xampp\*.conf C:\xampp\*.xml"
+type C:\xampp\mysql\bin\my.ini
+type C:\xampp\phpMyAdmin\config.inc.php
+cmd /c "dir C:\xampp /s /b | findstr /i pass"
+
+
 1
 python3 - << 'PY'
 import base64
