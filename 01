@@ -74,6 +74,15 @@ reg query HKCU\Software\Policies\Microsoft\Windows\Installer /v AlwaysInstallEle
 
 reg query HKLM\Software\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
 
+C:\tools
+
+dir C:\tools
+
+cd C:\tools\solr-8.3.1
+
+wmic process get name,processid | findstr java
+
+netstat -ano | findstr 8983
 
 1
 python3 - << 'PY'
