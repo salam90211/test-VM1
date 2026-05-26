@@ -106,6 +106,9 @@ sc query mysql57
 
 tasklist | findstr mysql
 type C:\xampp\xampp-control.ini
+
+wmic service get name,displayname,pathname,startmode | findstr /i "auto"
+icacls "C:\Program Files"
 1
 python3 - << 'PY'
 import base64
