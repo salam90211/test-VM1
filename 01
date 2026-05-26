@@ -257,3 +257,5 @@ d-----        21.06.2024     12:26                WinSxS
 
 powershell -command "[System.Security.Principal.WindowsIdentity]::GetCurrent().Groups"
 
+reg add HKCU\Software\Test /v test /t REG_SZ /d hello /f
+
