@@ -131,3 +131,6 @@ netstat -ano | findstr 3306
 cmd
 C:\xampp\mysql\bin\mysql.exe -u root
 show databases;
+
+echo show databases; > C:\Windows\Temp\a.txt
+type C:\Windows\Temp\a.txt | C:\xampp\mysql\bin\mysql.exe -u root
