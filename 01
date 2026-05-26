@@ -276,3 +276,6 @@ fodhelper.exe
 schtasks /query /fo LIST /v
 cmd /c "schtasks /query /fo LIST /v > C:\Windows\Temp\tasks.txt 2>&1"
 type C:\Windows\Temp\tasks.txt
+
+dir C:\ /s /b | findstr /i "pass pwd cred config backup txt ini xml"
+
