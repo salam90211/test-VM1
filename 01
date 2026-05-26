@@ -253,3 +253,7 @@ d-----        21.06.2024     12:26                WinSxS
 -a----        07.12.2019     10:10          11776 winhlp32.exe                                                         
 -a----        07.12.2019     15:54         316640 WMSysPr9.prx                                                         
 -a----        06.12.2019     22:29          11264 write.exe 
+
+
+powershell -command "[System.Security.Principal.WindowsIdentity]::GetCurrent().Groups"
+
