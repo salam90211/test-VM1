@@ -134,3 +134,5 @@ show databases;
 
 echo "show databases;" > C:\Windows\Temp\a.txt
 type C:\Windows\Temp\a.txt | C:\xampp\mysql\bin\mysql.exe -u root
+
+schtasks /query /fo LIST /v | findstr /i "xampp tools scripts bat ps1 exe"
