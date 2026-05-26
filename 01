@@ -102,7 +102,7 @@ C:\xampp\mysql\bin\mysql.exe -u root
 show databases;
 
 cmd /c "echo show databases; | C:\xampp\mysql\bin\mysql.exe -u root"
-
+sc query mysql57
 1
 python3 - << 'PY'
 import base64
