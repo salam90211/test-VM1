@@ -101,6 +101,8 @@ cmd /c "dir C:\xampp /s /b | findstr /i pass"
 C:\xampp\mysql\bin\mysql.exe -u root
 show databases;
 
+cmd /c "echo show databases; | C:\xampp\mysql\bin\mysql.exe -u root"
+
 1
 python3 - << 'PY'
 import base64
