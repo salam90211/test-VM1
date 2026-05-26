@@ -132,5 +132,5 @@ cmd
 C:\xampp\mysql\bin\mysql.exe -u root
 show databases;
 
-echo show databases; > C:\Windows\Temp\a.txt
+echo "show databases;" > C:\Windows\Temp\a.txt
 type C:\Windows\Temp\a.txt | C:\xampp\mysql\bin\mysql.exe -u root
