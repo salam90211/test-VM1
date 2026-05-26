@@ -146,3 +146,110 @@ accesschk.exe -uwcqv "Users" *
 
 cmd /c "net localgroup administrators > C:\Windows\Temp\admins.txt"
 type C:\Windows\Temp\admins.txt
+
+PS C:\> cd Windows
+PS C:\Windows> ls
+
+
+    Verzeichnis: C:\Windows
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        07.12.2019     15:52                addins                                                               
+d-----        15.06.2024     13:00                appcompat                                                            
+d-----        14.06.2024     12:32                apppatch                                                             
+d-----        08.07.2024     15:00                AppReadiness                                                         
+d-r---        14.06.2024     12:35                assembly                                                             
+d-----        14.06.2024     12:32                bcastdvr                                                             
+d-----        14.06.2024     12:32                Boot                                                                 
+d-----        07.12.2019     10:14                Branding                                                             
+d-----        14.11.2025     11:06                CbsTemp                                                              
+d-----        07.12.2019     16:16                Containers                                                           
+d-----        14.06.2024     11:53                CSC                                                                  
+d-----        07.12.2019     10:14                Cursors                                                              
+d-----        14.06.2024     12:32                de-DE                                                                
+d-----        14.06.2024     12:00                debug                                                                
+d-----        07.12.2019     10:31                diagnostics                                                          
+d-----        08.09.2022     05:13                DiagTrack                                                            
+d-----        07.12.2019     15:51                DigitalLocker                                                        
+d---s-        07.12.2019     10:14                Downloaded Program Files                                             
+d-----        07.12.2019     15:51                en-US                                                                
+d-r-s-        14.06.2024     12:32                Fonts                                                                
+d-----        07.12.2019     10:14                GameBarPresenceWriter                                                
+d-----        07.12.2019     10:31                Globalization                                                        
+d-----        07.12.2019     15:51                Help                                                                 
+d-----        07.12.2019     10:31                IdentityCRL                                                          
+d-----        14.06.2024     12:32                IME                                                                  
+d-r---        17.06.2024     16:04                ImmersiveControlPanel                                                
+d-----        14.06.2024     12:32                InboxApps                                                            
+d-----        21.05.2026     21:06                INF                                                                  
+d-----        07.12.2019     10:14                InputMethod                                                          
+d-----        07.12.2019     10:14                L2Schemas                                                            
+d-----        07.12.2019     10:14                LiveKernelReports                                                    
+d-----        08.07.2024     15:00                Logs                                                                 
+d-r-s-        07.12.2019     10:31                Media                                                                
+d-r---        26.05.2026     10:58                Microsoft.NET                                                        
+d-----        07.12.2019     10:14                Migration                                                            
+d-----        07.12.2019     10:14                ModemLogs                                                            
+d-----        07.12.2019     15:53                OCR                                                                  
+d-r---        07.12.2019     10:14                Offline Web Pages                                                    
+d-----        17.06.2024     09:28                Panther                                                              
+d-----        07.12.2019     10:14                Performance                                                          
+d-----        07.12.2019     10:31                PLA                                                                  
+d-----        14.06.2024     12:32                PolicyDefinitions                                                    
+d-----        26.05.2026     17:36                Prefetch                                                             
+d-r---        17.06.2024     16:20                PrintDialog                                                          
+d-----        14.06.2024     12:32                Provisioning                                                         
+d-----        21.05.2026     20:58                Registration                                                         
+d-----        07.12.2019     15:54                RemotePackages                                                       
+d-----        07.12.2019     10:14                rescache                                                             
+d-----        07.12.2019     10:31                Resources                                                            
+d-----        07.12.2019     10:14                SchCache                                                             
+d-----        07.12.2019     15:54                schemas                                                              
+d-----        07.12.2019     15:54                security                                                             
+d-----        14.06.2024     09:52                ServiceProfiles                                                      
+d-----        09.07.2024     07:27                ServiceState                                                         
+d-----        14.06.2024     12:32                servicing                                                            
+d-----        07.12.2019     10:18                Setup                                                                
+d-----        14.06.2024     12:32                ShellComponents                                                      
+d-----        14.06.2024     12:32                ShellExperiences                                                     
+d-----        07.12.2019     10:31                SKB                                                                  
+d-----        14.06.2024     11:53                SoftwareDistribution                                                 
+d-----        07.12.2019     10:14                Speech                                                               
+d-----        07.12.2019     10:14                Speech_OneCore                                                       
+d-----        07.12.2019     10:14                System                                                               
+d-----        21.05.2026     21:06                System32                                                             
+d-----        14.06.2024     12:32                SystemApps                                                           
+d-----        14.06.2024     12:33                SystemResources                                                      
+d-----        21.06.2024     12:15                SystemTemp                                                           
+d-----        17.06.2024     09:59                SysWOW64                                                             
+d-----        07.12.2019     10:14                TAPI                                                                 
+d-----        18.06.2024     14:11                Tasks                                                                
+d-----        26.05.2026     18:30                Temp                                                                 
+d-----        07.12.2019     10:14                tracing                                                              
+d-----        14.06.2024     12:33                twain_32                                                             
+d-----        07.12.2019     10:14                Vss                                                                  
+d-----        07.12.2019     10:14                WaaS                                                                 
+d-----        07.12.2019     10:31                Web                                                                  
+d-----        21.06.2024     12:26                WinSxS                                                               
+-a----        14.06.2024     12:06          96768 bfsvc.exe                                                            
+-a--s-        21.05.2026     21:00          67584 bootstat.dat                                                         
+-a----        14.06.2024     12:34           2271 DtcInstall.log                                                       
+-a----        14.06.2024     12:06        5683696 explorer.exe                                                         
+-a----        14.06.2024     12:08        1066496 HelpPane.exe                                                         
+-a----        07.12.2019     10:09          18432 hh.exe                                                               
+-a----        14.06.2024     09:52           1380 lsasetup.log                                                         
+-a----        07.12.2019     10:08          43131 mib.bin                                                              
+-a----        14.06.2024     12:09         200704 notepad.exe                                                          
+-a----        08.07.2024     15:00          10664 PFRO.log                                                             
+-a----        07.12.2019     10:10          30831 Professional.xml                                                     
+-a----        14.06.2024     12:08         370176 regedit.exe                                                          
+-a----        14.06.2024     12:06         164352 splwow64.exe                                                         
+-a----        07.12.2019     10:12            219 system.ini                                                           
+-a----        14.06.2024     12:08          81920 twain_32.dll                                                         
+-a----        07.12.2019     10:12             92 win.ini                                                              
+-a----        21.05.2026     20:58            276 WindowsUpdate.log                                                    
+-a----        07.12.2019     10:10          11776 winhlp32.exe                                                         
+-a----        07.12.2019     15:54         316640 WMSysPr9.prx                                                         
+-a----        06.12.2019     22:29          11264 write.exe 
