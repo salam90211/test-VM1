@@ -279,3 +279,6 @@ type C:\Windows\Temp\tasks.txt
 
 dir C:\ /s /b | findstr /i "pass pwd cred config backup txt ini xml"
 
+reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+
